@@ -1,5 +1,5 @@
 
-## Interacting with Ganache using Web3.js 
+## 1. Interacting with Ganache using Web3.js 
 ```bash
 Commands related to Web3.js
 
@@ -22,7 +22,7 @@ To transfer ether from one account to another -
 web3.eth.sendTransaction({from:"paste the address of the account inside it",to:"paste the address of the account inside it",value:web3.utils.toWei("1","ether")});4
 
 ```
-## Interacting with Smart Contract using Web3.js
+## 2. Interacting with Smart Contract using Web3.js
 ```bash
 Commands related to Web3.js
 
@@ -45,7 +45,7 @@ To transfer ether from one account to another -
 web3.eth.sendTransaction({from:"paste the address of the account inside it",to:"paste the address of the account inside it",value:web3.utils.toWei("1","ether")});4
 
 ```
-## Compilation of Smart Contract using web3.js 
+## 3. Compilation of Smart Contract using web3.js 
 ```bash
 Compilation of Smart Contract using web3.js
 
@@ -87,7 +87,7 @@ console.log("ABI: ", ABI);
 
 
 ```
-## Deployment of Smart Contract using web3.js
+## 4. Deployment of Smart Contract using web3.js
 ```bash
 solc = require("solc");
 
@@ -156,3 +156,4 @@ web3.eth.getAccounts().then((accounts) => {
 
 
 ```
+## Note :For now, we don't need to Compile and Deploy contracts using web3.js(described above)..things are getting much easier with Truffle.
