@@ -156,4 +156,6 @@ web3.eth.getAccounts().then((accounts) => {
 
 
 ```
-## Note :For now, we don't need to Compile and Deploy contracts using web3.js(described above)..things are getting much easier with Truffle.
+## Note : For now, we don't need to Compile and Deploy contracts using web3.js(described above)
+         No need to code from scratch in web3.js ..things are getting much easier with Truffle.
+         So,use " TRUFFLE "
